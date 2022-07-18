@@ -1,0 +1,23 @@
+{
+  "name": "homework06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanGawr/home-work-6.git"
+  },
+  "author": "IvanGawr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanGawr/home-work-6/issues"
+  },
+  "homepage": "https://github.com/IvanGawr/home-work-6#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  }
+}
