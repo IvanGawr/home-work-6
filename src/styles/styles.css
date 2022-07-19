@@ -1,0 +1,32 @@
+.container{
+    background: linear-gradient(to top left, blue, rgb(65, 142, 168), white, rgb(72, 175, 209), blue);
+    height: 100vh;
+    display: flex;
+    
+}
+
+.container-header{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.container-buttons{
+    margin: auto;
+    max-width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-buttons__item{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background:  linear-gradient(to bottom left, blue, rgb(65, 142, 168), white, rgb(72, 175, 209), blue);
+    font-weight: bold;
+}
+
