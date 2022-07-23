@@ -197,7 +197,7 @@
 }
 
 .section-dark-main__input::placeholder{
-    background: url(/src/2d/assets/arrow.png) right no-repeat;
+    background: url(/src/2d/assets/arrow-white.png) right no-repeat;
     color: #ffffff;
 }
 
