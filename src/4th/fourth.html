@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INPUT AND FORM DESING</title>
+
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/styles_fourth.scss">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+    <div class="container">
+        <div class="main">
+            <h1 class="main-topic">FORM</h1>
+            <div class="main-input">
+                <input class="main-input__item input__name" type="text" placeholder="UserName">
+                <input class="main-input__item input__mail" type="email" placeholder="E-mail">
+                <input class="main-input__item input__lock" type="password" placeholder="Password">
+                <select name="country" id="select" class="main-input-select">
+                        <option class="main-input-select__item" label="Belarus">Belarus</option>
+                        <option class="main-input-select__item" label="Russia">Russia</option>
+                        <option class="main-input-select__item" label="Bulgary">Bulgary</option>
+                        <option class="main-input-select__item" label="Poland">Poland</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="check">
+            <h3 class="check-topic">Level of development</h3>
+            <div class="levels">
+            
+            <label class="check-radio">
+                <div class="check-radio__back radio-low">
+                    <input type="radio" name="Level" class="check-radio__item">
+                    <span class="check-radio__custom"></span>
+                    <span>Basic</span>
+                </div>
+            </label>
+            
+            
+            <label class="check-radio">
+                <div class="check-radio__back radio-med">
+                    <input type="radio" name="Level" class="check-radio__item">
+                    <span class="check-radio__custom"></span>
+                    <span>Medium</span>
+                </div>    
+            </label>
+            
+            
+            <label class="check-radio">
+                <div class="check-radio__back radio-lar">
+                    <input type="radio" name="Level" class="check-radio__item">
+                    <span class="check-radio__custom"></span>
+                    <span>Advanced</span>
+                </div>
+            </label>
+            </div>
+
+            <h3 class="check-topic">Programming skills</h3>
+            <div class="skills">
+            <label class="check-box">
+                <div class="check-box__back box-low">
+                    <input class="check-box__item" type="checkbox">
+                    <span class="check-box__custom"></span>
+                    <span>Java</span>
+                </div>
+            </label>
+                
+            <label class="check-box">
+                <div class="check-box__back box-med">
+                    <input class="check-box__item" type="checkbox">
+                    <span class="check-box__custom"></span>
+                    <span>Python</span>
+                </div>
+            </label>
+                
+            <label class="check-box">
+                <div class="check-box__back box-lar">
+                    <input class="check-box__item" type="checkbox">
+                    <span class="check-box__custom"></span>
+                    <span>JavaScript</span>
+                </div>
+            </label>
+            </div>      
+        </div>
+
+
+        <div class="send">
+            <a href="https://twitter.com/" target="_blank"><button class="send-button"><div class="send-button__back">SEND</div></button></a>
+        </div>
+    </div>
+    </body>
+</html>
