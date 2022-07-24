@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel",
     "build": "parcel build"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/IvanGawr/home-work-6#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
     "parcel": "^2.6.2",
     "sass": "^1.53.0"
   }
